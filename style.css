@@ -407,7 +407,10 @@ footer ul li a{
     }
     .contact-container{
         flex-direction: column;
-        align-items: center ;
+        align-items: center;
+    }
+    .myInfo-box{
+        align-items: center;
     }
     .line{
         display: none;
@@ -433,8 +436,8 @@ footer ul li a{
 
 @media (max-width: 600px) {
     header{
-        gap: 6rem;
-        padding: 1rem 5rem;
+        gap: 3rem;
+        padding: 1rem 3rem;
     }
     header #menu-icon{
         display: block;
