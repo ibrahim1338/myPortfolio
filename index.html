@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- ========  Nav Bar =============== -->
+    <header class="header">
+      <a href="#" class="logo"> <span>Ibrahim</span> </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <a href="https://github.com/ibrahim1338" target="_blank"><button class="visit-btn">Visit Github</button></a>
+    </header>
+
+    <!-- =======  About Section  ======== -->
+    <section id="about">
+      <div class="about-container">
+        <img src="./assets/images/image.jpg" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Muhammad Ibrahim</h1>
+            <span>Front-end Developer</span>
+          </div>
+
+          <div class="btn-group">
+            <a href="./assets/ibrahim's resume.pdf" download="Muhammad-Ibrahim-Resume.pdf"><button class="btn">Download CV</button></a>
+            <a href="#contact"><button class="btn">Contact</button></a>
+          </div>
+
+          <div class="socials">
+            <a href="https://linkedin.com/in/mibrahimm1338"
+              target="_blank"><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a href="https://github.com/ibrahim1338"
+              target="_blank"><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= experience section =============== -->
+    <section class="experience" id="experience">
+      <h2 class="section-heading">Experience</h2>
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Front-end Development</h3>
+            <span>1 Year</span>
+            <p>Self-taught front-end developer with 1 year of hands-on experience building responsive web interfaces through personal projects.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-bezier-curve"></i>
+            <h3>Graphic Designing</h3>
+            <span>3 Years</span>
+            <p>Volunteered as a graphic designer for UET Narowal Newsline, creating visual content for social media and campus announcements.</p>
+          </div>
+
+          <!-- <div class="grid-card">
+            <i class="fa-brands fa-figma"></i>
+            <h3>UI/UX Design</h3>
+            <span>3 Months</span>
+            <p>Lorem ipsum dolor sit. Vel architecto ratione sequi</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-camera"></i>
+            <h3>Photography</h3>
+            <span>1 Year</span>
+            <p>Lorem ipsum dolor sit. Vel architecto ratione sequi</p>
+          </div> -->
+        </div>
+        <img src="./assets/images/image.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- ================= Projects section =================== -->
+    <section class="projects" id="projects">
+      <h2 class="section-heading">Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./assets/images/ehospitcare.jpg" alt="" />
+          <h3>eHospit Care | FYP</h3>
+          <p>
+            Developed a role-based MERN stack Hospital Management System to
+            streamline operations across departments with secure access and
+            modular features.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/ibrahim1338/ehospitcare-fyp.git"
+              target="_blank"
+              ><div class="btn">Github Repo</div></a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./assets/images/landing page.jpg" alt="" />
+          <h3>Landing Page</h3>
+          <p>
+            Designed a responsive agency landing page using HTML and CSS,
+            ensuring optimal user experience across all devices.
+          </p>
+          <div class="btn-group">
+            <a href="https://ibrahim1338.github.io/landingPage/" target="_blank"
+              ><div class="btn">Live Demo</div></a
+            >
+            <a
+              href="https://github.com/ibrahim1338/landingPage.git"
+              target="_blank"
+              ><div class="btn">Github Repo</div></a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./assets/images/portfolio.jpg" alt="" />
+          <h3>Portfolio</h3>
+          <p>
+            Built a responsive portfolio using HTML & CSS, leveraging Flexbox
+            and Grid for layout design.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/ibrahim1338/myPortfolio.git"
+              target="_blank"
+              ><div class="btn">Github Repo</div></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Contact Section =========== -->
+
+    <section class="contact" id="contact">
+      <h2 class="section-heading">Contact Me</h2>
+
+      <div class="contact-container">
+        <div class="myInfo-box">
+          <h3>Contact Information</h3>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+92 311-7611012</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-regular fa-envelope"></i>
+            <span>mibrahimm1338@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-square-facebook"></i>
+            <span>mibrahimm1338</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="input-box">
+          <h3>Send a Message</h3>
+          <div class="input">
+            <input
+              id="email-input"
+              type="text"
+              placeholder="example@email.com"
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          
+          <div class="input">
+            <input
+              id="message-input"
+              type="text"
+              placeholder="Type a short message"
+            />
+          </div>
+
+          <div class="btn" id="msgBtn">Submit</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Footer======================= -->
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+
+      <p class="copyright">© All Rights Reserved | Muhammad Ibrahim</p>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
