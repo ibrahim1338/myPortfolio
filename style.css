@@ -102,7 +102,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 6rem;
 }
 .about-container img{
     height: 30vw;
@@ -231,9 +231,13 @@ section{
 
 .projects-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 2rem;
 }
+/* .projects-grid .btn-group{
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 .project-card{
     display: flex;
     flex-direction: column;
@@ -362,6 +366,7 @@ footer ul li a{
 .copyright{
     font-size: 0.8rem;
     margin-top: 2rem;
+    text-align: center;
 }
 
 
@@ -419,8 +424,8 @@ footer ul li a{
         padding: 1rem 2rem;
     }
     .input-box input::placeholder{
+        
         font-size: 0.8rem;
-        padding: 1rem 2rem;
     }
     .input-box i {
         display: none;
@@ -436,8 +441,9 @@ footer ul li a{
 
 @media (max-width: 600px) {
     header{
-        gap: 3rem;
-        padding: 1rem 3rem;
+        gap: 2rem;
+        padding: 0.8rem 1.5rem;
+        
     }
     header #menu-icon{
         display: block;
@@ -467,20 +473,38 @@ footer ul li a{
         display: block;
     }
     .about-container img{
-        height: 80vw;
+        height: 60vw;
 
     }
+    #about .about-container{
+        gap: 2rem;
+    }
+    .info-box h1{
+        font-size: 2.5rem;
+    }
+    .info-box span{
+        font-size: 1.5rem;
+    }
     .input-box input{
-        padding: 0.25rem 1.5rem;
+        padding: 0.5rem 1rem;
         font-size:1rem;
 
     }
     .input-box input::placeholder {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
-
+    .section-heading{
+        font-size: 3rem;
+    }
     footer ul {
         gap: 1rem;
+    }
+    .btn{
+        font-size: 0.7rem;
+        padding: 0.5rem 0.7rem;
+    }
+    .project-card img{
+        width:  40vw;
     }
     
 }
